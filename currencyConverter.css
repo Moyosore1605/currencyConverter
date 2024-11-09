@@ -1,0 +1,30 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body{
+    font-family: 'Courier New', Courier, monospace;
+}
+main{
+    background-color: darkcyan;
+    color: aliceblue;
+}
+div{
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+div select{
+    padding: 10px;
+    color: black;
+}
+div input{
+    border: 0;
+    background: transparent;
+    font-size: 25px;
+    text-align: right;
+    color: aliceblue;
+}
+select:focus,input:focus{
+    outline: 0;
+}
